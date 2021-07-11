@@ -81,7 +81,7 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_member = chat.get_member(user_id)
     if user_member.status == 'creator':
-        message.reply_text("This person CREATED the chat, how would I demote them?")
+        message.reply_text("Guddalo Thante Gaddala egurutav")
         return ""
 
     if not user_member.status == 'administrator':
